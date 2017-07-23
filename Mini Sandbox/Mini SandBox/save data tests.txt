@@ -1,0 +1,41 @@
+ints save blockdata (plus booleans converted to ints)
+38 kilobytes - 1 chunk
+7,575,200 - 200 chunks
+
+strings save blockdata (ints and booleans converted to strings) - ORIGINAL GAME STATE
+33 kilobytes - 1 chunk
+6,589,814 bytes (6.5 megabytes) - 200 chunks
+
+ints and booleans save blockdata (no conversion)
+18 kilobytes - 1 chunk
+3,736,417 bytes - 200 chunks
+
+all ints save blockdata (no x and y save)
+13 kilobytes - 1 chunk
+2,418,393 bytes - 200 chunks
+
+ints and booleans save blockdata (no x and y save)
+12 kilobytes - 1 chunk
+2,394,259 bytes - 200 chunks
+
+ints and booleans save blockdata (no x, y and breakable save)
+11 kilobytes - 1 chunk
+2,154,456 bytes (2.2 megabytes) - 200 chunks
+12 megabytes - 1000 chunks
+
+ints save blockdata (no x, y, broken and breakable save) - OPTIMISED GAME STATE
+6 kilobytes - 1 chunk
+1,213,947 bytes (1.15 megabytes) - 200 chunks
+5.78 megabytes - 1000 chunks
+26 megabytes - 5000 chunks
+
+broken is checked by 0xFFFFFF compared to lower than 0xEEEEEE to 0x000000 but in the end in game is back to true/false
+breakable is a set value now that doesnt need to be saved
+x and y are checked in array positions
+only colour is required to save
+
+ints save blockdata (no x, y, broken and breakable and instead of 0 to 14mil colours, just 0 to 43 for colour id save) - SUPER OPTIMISED
+2.6 kilobytes - 1 chunk
+504,739 bytes (492 kilobytes) - 200 chunks
+2.40 megabytes - 1000 chunks
+12 megabytes - 5000 chunks
