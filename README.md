@@ -13,6 +13,7 @@ There can be a max of 2,147,483,647 positive chunks and a max of
 
 The total assumed max chunks saved to the hard drive could potentially be 4,294,967,294 chunks (2,147,483,647 + 2,147,483,647).
 
-I made this in 2016 in ActionScript 3.0 + Adobe Air using FlashDevelop.
+Go To Mini-Sandbox-AS3/Mini Sandbox/Mini SandBox/readme.txt for info on the actual gameplay and controls.
 
+I made this in 2016 in ActionScript 3.0 + Adobe Air using FlashDevelop.
 By Stephen Birsa (2016)
